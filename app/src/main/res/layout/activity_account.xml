@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="364dp"
+        android:layout_height="734dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAccountInfoSectionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="70dp"
+                android:text="Account Info"
+                android:textAlignment="center"
+                android:textSize="@dimen/account_page_big_title_font_size" />
+
+            <TextView
+                android:id="@+id/tvUsernameTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:text="Username :"
+                android:textSize="@dimen/account_page_small_title_font_size" />
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@color/account_page_user_details_background_color"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:paddingRight="@dimen/account_page_small_title_padding_right"
+                android:textSize="@dimen/account_page_user_details_font_size" />
+
+            <TextView
+                android:id="@+id/tvFirstNameTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:text="First Name : "
+                android:textSize="@dimen/account_page_small_title_font_size" />
+
+            <TextView
+                android:id="@+id/tvFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/account_page_small_title_margin_bottom"
+                android:background="@color/account_page_user_details_background_color"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:paddingRight="@dimen/account_page_small_title_padding_right"
+                android:textSize="@dimen/account_page_user_details_font_size" />
+
+            <TextView
+                android:id="@+id/tvLastNameTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:text="Last Name : "
+                android:textSize="@dimen/account_page_small_title_font_size" />
+
+            <TextView
+                android:id="@+id/tvLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/account_page_small_title_margin_bottom"
+                android:background="@color/account_page_user_details_background_color"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:paddingRight="@dimen/account_page_small_title_padding_right"
+                android:textSize="@dimen/account_page_user_details_font_size" />
+
+            <TextView
+                android:id="@+id/tcEmailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:text="Email Address :"
+                android:textSize="@dimen/account_page_small_title_font_size" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/account_page_small_title_margin_bottom"
+                android:background="@color/account_page_user_details_background_color"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:paddingRight="@dimen/account_page_small_title_padding_right"
+                android:textSize="@dimen/account_page_user_details_font_size" />
+
+            <TextView
+                android:id="@+id/tvPhoneNumTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:text="Phone Number : "
+                android:textSize="@dimen/account_page_small_title_font_size" />
+
+            <TextView
+                android:id="@+id/tvPhoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/account_page_small_title_margin_bottom"
+                android:background="@color/account_page_user_details_background_color"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:paddingRight="@dimen/account_page_small_title_padding_right"
+                android:textSize="@dimen/account_page_user_details_font_size" />
+
+            <TextView
+                android:id="@+id/tvAddressTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:text="Home Address :"
+                android:textSize="@dimen/account_page_small_title_font_size" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/account_page_small_title_margin_bottom"
+                android:background="@color/account_page_user_details_background_color"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:paddingRight="@dimen/account_page_small_title_padding_right"
+                android:textSize="@dimen/account_page_user_details_font_size" />
+
+
+            <TextView
+                android:id="@+id/tvInquiries"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="@string/inquiries"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="270dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginBottom="70dp"
+                android:text="Call To Customer Service" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
