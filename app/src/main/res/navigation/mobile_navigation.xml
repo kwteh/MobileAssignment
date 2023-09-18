@@ -10,6 +10,26 @@
         android:name="com.example.mobileassignment.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/app_bar_main" />
+    <activity
+        android:id="@+id/nav_account"
+        android:name="com.example.mobileassignment.ui.account.AccountActivity"
+        android:label="Account"
+        tools:layout="@layout/activity_account" />
+    <activity
+        android:id="@+id/nav_purchase"
+        android:name="com.example.mobileassignment.ui.account.AccountActivity"
+        android:label="Purchase"
+        tools:layout="@layout/activity_account" />
+    <activity
+        android:id="@+id/nav_quiz"
+        android:name="com.example.mobileassignment.ui.account.AccountActivity"
+        android:label="Quiz"
+        tools:layout="@layout/activity_account"/>
+    <activity
+        android:id="@+id/nav_vocabulary"
+        android:name="com.example.mobileassignment.ui.account.AccountActivity"
+        android:label="Vocabulary"
+        tools:layout="@layout/activity_account" />
 
 <!--    <fragment-->
 <!--        android:id="@+id/nav_renew"-->

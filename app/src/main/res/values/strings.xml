@@ -8,7 +8,7 @@
     <string name="action_logout">Logout</string>
 
     <string name="splash_screen_info">Designed By: \n Khai Wen, Kok Wei</string>
-    <string name="register_page_password_himt"> Password \t\t\t\t (Hint: abcD@12345)</string>
+    <string name="register_page_password_hint"> Password \t\t\t\t (Hint: abcD@12345)</string>
     <string name="inquiries">For any inquiry, please call 03-32551678 to our customer services.Or you can email to us lingolearn@gmail.com </string>
     <string name="menu_home">Home</string>
 </resources>
