@@ -8,30 +8,26 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/home"
             android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_reference"
-            android:icon="@drawable/ic_baseline_camera_24"
-            android:title="Reference" />
 
         <item
             android:id="@+id/nav_account"
-            android:icon="@drawable/ic_baseline_people_24"
+            android:icon="@drawable/account"
             android:title="Account" />
 
 
         <item
             android:id="@+id/nav_purchase"
-            android:icon="@drawable/ic_baseline_shopping_bag_24"
+            android:icon="@drawable/purchase"
             android:title="Purchase" />
 
         <item
             android:id="@+id/nav_quiz"
-            android:icon="@drawable/ic_baseline_shopping_bag_24"
+            android:icon="@drawable/quiz"
             android:title="Quiz" />
 
         <item
             android:id="@+id/nav_vocabulary"
-            android:icon="@drawable/ic_baseline_shopping_bag_24"
+            android:icon="@drawable/vocabulary"
             android:title="Vocabulary" />
 
 
