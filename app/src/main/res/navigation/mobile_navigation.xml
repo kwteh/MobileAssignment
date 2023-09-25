@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mobileassignment.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/app_bar_main" />
+    <activity
+        android:id="@+id/nav_account"
+        android:name="com.example.mobileassignment.ui.account.AccountActivity"
+        android:label="Account"
+        tools:layout="@layout/activity_account" />
+    <activity
+        android:id="@+id/nav_purchase"
+        android:name="com.example.mobileassignment.ui.account.AccountActivity"
+        android:label="Purchase"
+        tools:layout="@layout/activity_account" />
+    <activity
+        android:id="@+id/nav_quiz"
+        android:name="com.example.mobileassignment.ui.account.AccountActivity"
+        android:label="Quiz"
+        tools:layout="@layout/activity_account"/>
+    <activity
+        android:id="@+id/nav_vocabulary"
+        android:name="com.example.mobileassignment.ui.account.AccountActivity"
+        android:label="Vocabulary"
+        tools:layout="@layout/activity_account" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_renew"-->
+<!--        android:name="com.example.assigmenttesting.ui.Renew.renew"-->
+<!--        android:label="Renew"-->
+<!--        tools:layout="@layout/renew_fragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_aboutus"-->
+<!--        android:name="com.example.assigmenttesting.ui.AboutUs.AboutUs"-->
+<!--        android:label="@string/menu_aboutUs"-->
+<!--        tools:layout="@layout/about_us_fragment" />-->
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_reference"-->
+<!--        android:name="com.example.assigmenttesting.ui.Reference.Reference"-->
+<!--        android:label="Reference"-->
+<!--        tools:layout="@layout/reference_fragment" />-->
+<!--    <activity-->
+<!--        android:id="@+id/nav_account"-->
+<!--        android:name="com.example.assigmenttesting.ui.account.AccountActivity"-->
+<!--        android:label="@string/menu_account"-->
+<!--        tools:layout="@layout/activity_account" />-->
+<!--    <activity-->
+<!--        android:id="@+id/nav_reward"-->
+<!--        android:name="com.example.assigmenttesting.ui.ht.Reward"-->
+<!--        android:label="Reward"-->
+<!--        tools:layout="@layout/activity_account" />-->
+<!--    <activity-->
+<!--        android:id="@+id/nav_product"-->
+<!--        android:name="com.example.assigmenttesting.ui.ht.Product"-->
+<!--        android:label="Product"-->
+<!--        tools:layout="@layout/activity_account" />-->
+<!--    <activity-->
+<!--        android:id="@+id/nav_event"-->
+<!--        android:name="com.example.assigmenttesting.ui.ht.Event"-->
+<!--        android:label="Events"-->
+<!--        tools:layout="@layout/activity_account" />-->
+</navigation>

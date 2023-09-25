@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">MobileAssignment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
     <string name="splash_screen_info">Designed By: \n Khai Wen, Kok Wei</string>
-    <string name="register_page_password_himt"> Password \t\t\t\t (Hint: abcD@12345)</string>
+    <string name="register_page_password_hint"> Password \t\t\t\t (Hint: abcD@12345)</string>
     <string name="inquiries">For any inquiry, please call 03-32551678 to our customer services.Or you can email to us lingolearn@gmail.com </string>
     <string name="menu_home">Home</string>
     <string name="InfoSmartPen">\nThe Smart Dictionary Pen is a cutting-edge language learning and translation device designed to revolutionize the way we interact with languages and expand our linguistic horizons. </string>

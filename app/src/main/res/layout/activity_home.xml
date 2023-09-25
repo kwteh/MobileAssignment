@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAdvertisementTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/account_page_user_details_background_color"
+                android:fontFamily="@font/allerta"
+                android:paddingLeft="@dimen/account_page_small_title_padding_left"
+                android:paddingTop="100dp"
+                android:paddingRight="30dp"
+                android:text="Advertisements"
+                android:textAlignment="center"
+                android:textSize="@dimen/account_page_user_details_font_size"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/account_page_user_details_background_color"
+                android:paddingTop="30dp"
+                app:srcCompat="@drawable/lingo" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/account_page_user_details_background_color"
+                android:padding="0dp"
+                app:srcCompat="@drawable/lingo" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="626dp"
+                android:layout_marginBottom="@dimen/home_page_advertisement_image_margin_bottom"
+                android:background="@color/account_page_user_details_background_color"
+                app:srcCompat="@drawable/lingo" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
