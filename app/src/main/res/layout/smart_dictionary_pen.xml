@@ -49,7 +49,7 @@
 
             <TextView
                 android:id="@+id/tvSmartPenPrice"
-                android:layout_width="139dp"
+                android:layout_width="246dp"
                 android:layout_height="51dp"
                 android:text="Price Only RM199.00"
                 android:textColor="@color/Red"
@@ -59,7 +59,9 @@
                 android:id="@+id/BuySP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="#F3DA06"
+                android:gravity="center"
                 android:text="Buy Now !"
                 android:textSize="34sp" />
 
