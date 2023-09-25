@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSmartPen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smart Dictionary Pen"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgSmartPen"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                app:srcCompat="@drawable/smart_pen_2" />
+
+            <TextView
+                android:id="@+id/tvInfoSmartPen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/InfoSmartPen"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSmartPenDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/InfoDetailSmartPen"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSmartPenPrice"
+                android:layout_width="139dp"
+                android:layout_height="51dp"
+                android:text="Price Only RM199.00"
+                android:textColor="@color/Red"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/BuySP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F3DA06"
+                android:text="Buy Now !"
+                android:textSize="34sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
